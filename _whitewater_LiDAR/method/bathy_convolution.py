@@ -87,7 +87,7 @@ def extract_new_whitwater_points(lidar_df, waveform_data_recorded, socs_coordina
     for i, wfm in enumerate(waveform_data_recorded):
         
         # transpose wfm from samples
-        wfm = wfm.T
+        wfm = np.array(wfm).T
 
         # waveform can only have one echo and waveform data must be recorded
         if nr_of_echoes[i] < 2 and len(wfm) > 1 and len(wfm[0]) > 1:

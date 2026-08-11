@@ -17,7 +17,7 @@ def plot_multiple_wfms(wfm_selected, color, panel, sample_intervals):
     for wfm in wfm_selected[:200]:
 
         # split standard wfm data
-        wfm = wfm.T
+        wfm = np.array(wfm).T
         wfm_selected_y = wfm[1]
         wfm_selected_x = wfm[0] - wfm[0][0]
 
