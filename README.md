@@ -15,7 +15,7 @@ To run the notebooks and the provided code of the method, the following folder s
   - all_reference.txt
   - pielach_whitewater.txt
   - pielach.txt
-  - waveform_data.df
+  - waveform_data.json
 - method
   - __init__.py
   - bathy_convolution.py
