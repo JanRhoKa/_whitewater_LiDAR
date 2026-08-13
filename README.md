@@ -7,7 +7,7 @@ The application of LiDAR and remote sensing methods has long been considered cha
 
 ## Code setup
 
-To run the notebooks and the provided code of the method, the following folder structure has to be implemented after downloading the files ():
+To run the notebooks and the provided code of the method, the following folder structure has to be implemented after downloading the files (https://doi.org/10.48436/j9gr1-yva88):
 
 ### _whitewater_LiDAR
 - data
